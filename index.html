@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&display=swap" rel="stylesheet">
+  <script src="//cdn.jsdelivr.net/npm/simple-crypto-js@2.5.0/dist/SimpleCrypto.min.js"></script>
+  <title>Decodificador de texto!</title>
+</head>
+
+<body>
+
+  <main>
+    <header>
+      <img src="./assets/logo.png" alt="Logo, contendo um A, fazendo referencia a Alura">
+    </header>
+    <div class="content-main">
+      <Textarea placeholder="Digite seu texto"></Textarea>
+
+      <div class="content-footer">
+        <p>
+          <ion-icon name="alert-circle-outline"></ion-icon>
+          Apenas letras minúsculas e sem acento.
+        </p>
+        <div class="content-footer-button">
+          <button onclick="onEncrypt()" class="encrypt">Criptografar</button>
+          <button onclick="onDecrypt()" class="decrypt">Descriptografar</button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="content-result ">
+      <img src="/assets/ilustration.svg" alt="Menino segurando uma lupa.">
+      <h2>Nenhuma mensagem encontrada</h2>
+      <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+    </div>
+
+
+
+  </main>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">  </script>
+  <script nomodule src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js">  </script>
+  <script src="main.js"></script>
+
+</body>
+
+</html>
