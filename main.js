@@ -1,5 +1,5 @@
-const textTextarea = document.getElementsByTagName("textarea")[0]
-const containerResult = document.getElementsByClassName("content-result")[0]
+const textTextarea = document.getElementById("content-textarea")
+const containerResult = document.getElementById("content-result")
 let simpleCrypto = new SimpleCrypto("NextEducationOne")
 
 
